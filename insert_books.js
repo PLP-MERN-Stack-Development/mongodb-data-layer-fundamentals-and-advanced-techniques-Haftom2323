@@ -12,6 +12,7 @@ const collectionName = 'books';
 
 // Sample book data
 const books = [
+  // Classic Literature
   {
     title: 'To Kill a Mockingbird',
     author: 'Harper Lee',
@@ -42,16 +43,40 @@ const books = [
     pages: 180,
     publisher: 'Charles Scribner\'s Sons'
   },
+  
+  // Modern Bestsellers
   {
-    title: 'Brave New World',
-    author: 'Aldous Huxley',
-    genre: 'Dystopian',
-    published_year: 1932,
-    price: 11.50,
-    in_stock: false,
-    pages: 311,
-    publisher: 'Chatto & Windus'
+    title: 'The Midnight Library',
+    author: 'Matt Haig',
+    genre: 'Fiction',
+    published_year: 2020,
+    price: 15.99,
+    in_stock: true,
+    pages: 304,
+    publisher: 'Canongate Books'
   },
+  {
+    title: 'Project Hail Mary',
+    author: 'Andy Weir',
+    genre: 'Science Fiction',
+    published_year: 2021,
+    price: 17.99,
+    in_stock: true,
+    pages: 496,
+    publisher: 'Ballantine Books'
+  },
+  {
+    title: 'The Four Winds',
+    author: 'Kristin Hannah',
+    genre: 'Historical Fiction',
+    published_year: 2021,
+    price: 16.99,
+    in_stock: true,
+    pages: 464,
+    publisher: 'St. Martin\'s Press'
+  },
+  
+  // Fantasy & Sci-Fi
   {
     title: 'The Hobbit',
     author: 'J.R.R. Tolkien',
@@ -63,15 +88,73 @@ const books = [
     publisher: 'George Allen & Unwin'
   },
   {
-    title: 'The Catcher in the Rye',
-    author: 'J.D. Salinger',
-    genre: 'Fiction',
-    published_year: 1951,
-    price: 8.99,
+    title: 'The Name of the Wind',
+    author: 'Patrick Rothfuss',
+    genre: 'Fantasy',
+    published_year: 2007,
+    price: 18.99,
     in_stock: true,
-    pages: 224,
-    publisher: 'Little, Brown and Company'
+    pages: 662,
+    publisher: 'DAW Books'
   },
+  
+  // Mystery & Thriller
+  {
+    title: 'The Silent Patient',
+    author: 'Alex Michaelides',
+    genre: 'Thriller',
+    published_year: 2019,
+    price: 13.99,
+    in_stock: true,
+    pages: 325,
+    publisher: 'Celadon Books'
+  },
+  {
+    title: 'Gone Girl',
+    author: 'Gillian Flynn',
+    genre: 'Thriller',
+    published_year: 2012,
+    price: 12.99,
+    in_stock: true,
+    pages: 422,
+    publisher: 'Crown Publishing Group'
+  },
+  
+  // Non-Fiction
+  {
+    title: 'Atomic Habits',
+    author: 'James Clear',
+    genre: 'Self-Help',
+    published_year: 2018,
+    price: 16.99,
+    in_stock: true,
+    pages: 320,
+    publisher: 'Avery'
+  },
+  {
+    title: 'Sapiens: A Brief History of Humankind',
+    author: 'Yuval Noah Harari',
+    genre: 'History',
+    published_year: 2014,
+    price: 19.99,
+    in_stock: true,
+    pages: 512,
+    publisher: 'Harper'
+  },
+  
+  // Young Adult
+  {
+    title: 'The Hunger Games',
+    author: 'Suzanne Collins',
+    genre: 'Young Adult',
+    published_year: 2008,
+    price: 10.99,
+    in_stock: true,
+    pages: 374,
+    publisher: 'Scholastic'
+  },
+  
+  // Classic Literature (continued)
   {
     title: 'Pride and Prejudice',
     author: 'Jane Austen',
@@ -87,7 +170,7 @@ const books = [
     author: 'J.R.R. Tolkien',
     genre: 'Fantasy',
     published_year: 1954,
-    price: 19.99,
+    price: 24.99,
     in_stock: true,
     pages: 1178,
     publisher: 'Allen & Unwin'
@@ -102,16 +185,54 @@ const books = [
     pages: 112,
     publisher: 'Secker & Warburg'
   },
+  
+  // Additional Modern Books
   {
-    title: 'The Alchemist',
-    author: 'Paulo Coelho',
-    genre: 'Fiction',
-    published_year: 1988,
-    price: 10.99,
+    title: 'Where the Crawdads Sing',
+    author: 'Delia Owens',
+    genre: 'Mystery',
+    published_year: 2018,
+    price: 15.49,
     in_stock: true,
-    pages: 197,
-    publisher: 'HarperOne'
+    pages: 384,
+    publisher: 'G.P. Putnam\'s Sons'
   },
+  {
+    title: 'Educated',
+    author: 'Tara Westover',
+    genre: 'Memoir',
+    published_year: 2018,
+    price: 14.99,
+    in_stock: true,
+    pages: 352,
+    publisher: 'Random House'
+  },
+  
+  // Science Fiction
+  {
+    title: 'Dune',
+    author: 'Frank Herbert',
+    genre: 'Science Fiction',
+    published_year: 1965,
+    price: 17.99,
+    in_stock: true,
+    pages: 688,
+    publisher: 'Chilton Books'
+  },
+  
+  // Business & Economics
+  {
+    title: 'Atomic Habits',
+    author: 'James Clear',
+    genre: 'Self-Help',
+    published_year: 2018,
+    price: 16.99,
+    in_stock: true,
+    pages: 320,
+    publisher: 'Avery'
+  },
+  
+  // Additional Classics
   {
     title: 'Moby Dick',
     author: 'Herman Melville',
